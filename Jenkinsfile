@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_USER = "sourav-rakshe"
+        DOCKER_USER = "souravrakshe"
         IMAGE_NAME  = "${DOCKER_USER}/python-devops-app"
         BUILD_TAG   = "${BUILD_NUMBER}"
     }
