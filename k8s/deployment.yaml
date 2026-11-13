@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: python-container
-        image: souravrakshe/python-devops-app:latest
+        image: sourav-rakshe/python-devops-app:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
