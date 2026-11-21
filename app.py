@@ -1,11 +1,11 @@
 from flask import Flask, jsonify
 import socket
 
-app = Flask(__Sourav__)
+app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return f"<h1>End-to-End DevOps CI/CD Project!</h1><p>Pod: {socket.gethostname()}</p>"
+    return f"<h1>End-to-End DevOps CI/CD Project - Sourav!</h1><p>Pod: {socket.gethostname()}</p>"
 
 @app.route('/health')
 def health():
